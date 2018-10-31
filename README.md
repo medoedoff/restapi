@@ -21,6 +21,6 @@ Open second terminal to test our Rest API server
 `curl -u satori:satori -X DELETE localhost:8000/library/4/`
 
 ### Notice
-You have only 10 requests per 10 minutes, to change it, go to djapi/settings.py file, on line 121 find DEFAULT_THROTTLE_RATES, below you will see `'anon':10/m` and `user:10/m`. Anon - not authenticated, User - authenticated. 10 - means how much request anon or user will have, m - means per minute. You can change it how it will comfortable for you.
+You have only 10 requests per 1 minute, to change it, go to djapi/settings.py file, on line 121 find DEFAULT_THROTTLE_RATES, below you will see `'anon':10/m` and `user:10/m`. Anon - not authenticated, User - authenticated. 10 - means how much request anon or user will have, m - means per minute. You can change it how it will comfortable for you.
 
 P.S Sorry for my English :)
