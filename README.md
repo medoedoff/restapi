@@ -1,15 +1,15 @@
 # Django Rest API
 
-To get started download the project `git clone https://github.com/medoedoff/restapi.git`
-After go to the project directory `cd directory/where/project/downloaded/restapi-master`
+To get started download the project `git clone https://github.com/medoedoff/restapi.git`  
+After go to the project directory `cd directory/where/project/downloaded/restapi-master`  
 Install requirement packages for work (you shoud have python3 and pip) `pip install requirements.txt`
 
-Run django server `python3 manage.py runserver`
-Open second terminal to test our Rest API server
+Run django server `python3 manage.py runserver`  
+Open second terminal to test our Rest API server  
 
 ### GET
-`curl localhost:8000/library/` -All books in Library
-`curl localhost:8000/library/1/` -Detail book in Library
+`curl localhost:8000/library/` -All books in Library  
+`curl localhost:8000/library/1/` -Detail book in Library  
 
 ### POST (only for authenticated users)
 `curl -u satori:satori -d author=TestAuthor localhost:8000/library/`
