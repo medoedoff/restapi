@@ -4,8 +4,7 @@ To get started download the project `git clone https://github.com/medoedoff/rest
 After go to the project directory `cd directory/where/project/downloaded/restapi-master`  
 Install requirement packages for work (you shoud have python3 and pip) `pip install requirements.txt`
 
-Run django server `python3 manage.py runserver`  
-Open second terminal to test our Rest API server  
+Run django server `nohup python3 manage.py runserver &`  
 
 ### GET
 `curl localhost:8000/library/` -All books in Library  
